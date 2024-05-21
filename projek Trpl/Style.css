@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section:nth-of-type(odd) {
+  background-color: #f4f4f4;
+}
+
+section:nth-of-type(even) {
+  background-color: #e9e9e9;
+}
+
+h1 {
+  margin-top: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+p {
+  text-align: justify;
+}
+
+ul {
+  text-align: left;
+  list-style: disc;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+.youtube-links {
+  list-style: none;
+  padding: 0;
+}
+
+.youtube-links li {
+  margin-bottom: 10px;
+}
+
+.youtube-links li a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.youtube-links li a:hover {
+  text-decoration: underline;
+}
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-icon {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.contact-icon i {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-icon span {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.contact-icon:hover i {
+  color: #1a73e8;
+}
